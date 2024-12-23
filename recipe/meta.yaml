@@ -1,13 +1,13 @@
 {% set name = "lazy-imports" %}
-{% set version = "0.3.1" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lazy_imports-{{ version }}.tar.gz
-  sha256: 636624104bf45b09761323e06292927832aca067c3c199e5de483738789aeb21
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/lazy_imports-{{ version }}.tar.gz
+  sha256: c3d9e4e295e6118588f58c6710d152bb2836e0276f790a120ee4ab608829cece
 
 build:
   noarch: python
