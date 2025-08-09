@@ -3,7 +3,7 @@ About lazy-imports-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lazy-imports-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/telekom/lazy-imports
+Home: https://github.com/bachorp/lazy-imports
 
 Package license: Apache-2.0
 

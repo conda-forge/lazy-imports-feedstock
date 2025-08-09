@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -32,7 +32,7 @@ test:
     - python {{ python_min }}
 
 about:
-  home: https://github.com/telekom/lazy-imports
+  home: https://github.com/bachorp/lazy-imports
   summary: Tool to support lazy imports
   license: Apache-2.0
   license_file: LICENSE
